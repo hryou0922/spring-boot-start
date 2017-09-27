@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+    <parent>
+        <artifactId>first-spring-boot</artifactId>
+        <groupId>com.hry.spring.first</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../first-spring-boot/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>first-spring-boot-autoconfigure</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+
+    <dependencies>
+        <!-- @ConfigurationProperties annotation processing (metadata for IDEs)
+            生成spring-configuration-metadata.json类，需要引入此类
+            -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- first model -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hry.spring.first</groupId>
+            <artifactId>first</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
