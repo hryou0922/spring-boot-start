@@ -21,17 +21,6 @@
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
-        <!-- spring web -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
         <!-- 如果要解析配置yml，则需要加入yml值 -->
         <dependency>
             <groupId>org.yaml</groupId>

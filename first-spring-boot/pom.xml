@@ -7,6 +7,7 @@
     <groupId>com.hry.spring.first</groupId>
     <version>1.0.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
+    <!-- 类型为pom -->
     <packaging>pom</packaging>
 
     <properties>

@@ -27,8 +27,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" level="project" />
     <orderEntry type="module" module-name="first-spring-boot-autoconfigure" />
     <orderEntry type="module" module-name="first" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-web:unknown" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:unknown" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
   </component>
 </module>
